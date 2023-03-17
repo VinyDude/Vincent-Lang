@@ -11,6 +11,7 @@ var wordlist = ['hi','bye','yourmum','vincent','olivia','leon','somayina','text'
 var realwordlist = ['kek', 'eke', 'weas', 'wpotja','welser', 'wanyo', 'wbazn', 'gor','gu', 'glub', 'gophnia', 'getar','gubo', 'gsa', 'gas', 'gol','goen', 'gqopu', 'gob', 'gab','gub', 'geb', 'goq', 'gaw','q', 'a', 'z', 'w','h', 'p', 'i', 'qu','qe', 'qi', 'qo', 'qa','qy', 'gy', 'wokolena', 'wqtyui','~', ' ', 'sepa', 'va','vetr', 'vatr', 'vor', 'vur','vetr', 'wetf', 'watf', 'wetr','watr', 'pe', 'guili', 'wequty','weqaty', 'kaw', 'kwa', 'kawawa','koto','werut', 'waut', 'wq', 'iop','walt', 'wrat', 'wla', 'wquopou','weloput', 'weltoso', 'weltipia', 'waltiposw','wradiot', 'wloth', 'wlotho', 'wlotha','wlothe', 'wlothese', 'wapana', 'wopa','apppppa', 'alo', 'alo', 'awer','aquqa', 'auwqu', 'avavlo', 'avaloep','valop','olo', 'olerq', '', '','', '', '', '','', '', '', '','', '', '', '','', '', '', '','', '', '', '','', '', '', '','','', '', '', '','', '', '', '','', '', '', '','', '', '', '','', '', '', '','', '', '', '','', '', '', '','','', '', '', '','', '', '', '','', '', '', '','', '', '', '','', '', '', '','', '', '', '','', '', '', '',]
 function run(){
 	var str = document.getElementById("in").value
+	var spe = document.getElementById("ab").innerHTML;
 	var nstr= "";
 	var arr = str.split(" ");
 	for (var i = 0; i < arr.length; i++) {
@@ -29,7 +30,7 @@ function run(){
  		nstr = arr[i]+"~"+nstr
 	}
 	console.log(nstr);
-	document.getElementById("p").innerHTML = nstr;
+	 spe = nstr;
 }
 </script>
 
